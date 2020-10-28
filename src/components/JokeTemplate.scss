@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+    padding: 10px;
+    background-color: #2f2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JokeTemplate {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 700px;
+    font-family: "Oswald", sans-serif;
+}
+.JokeHeader {
+    &_title {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+        font-weight: bolder;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(
+            90deg,
+            rgba(131, 58, 180, 1) 0%,
+            rgba(253, 29, 29, 1) 50%,
+            rgba(252, 176, 69, 1) 100%
+        );
+    }
+}
+.JokeBody {
+    padding: 5px;
+    background-color: #f2f2f2;
+    height: 800px;
+    overflow-y: auto;
+    &_setup {
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+            circle,
+            rgba(238, 174, 202, 1) 0%,
+            rgba(148, 187, 233, 0.4822303921568627) 100%
+        );
+        text-align: center;
+        padding: 10px;
+    }
+    &_punch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &_line {
+            font-size: 100px;
+        }
+    }
+    &_reload {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        cursor: pointer;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+            circle,
+            rgba(238, 174, 202, 1) 0%,
+            rgba(148, 187, 233, 0.4822303921568627) 100%
+        );
+        border-radius: 15px;
+        margin-top: 110px;
+    }
+}
+.JokeFooter {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+    );
+    &_maker {
+        text-align: center;
+        padding: 10px;
+    }
+}
