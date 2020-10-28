@@ -6,3 +6,7 @@
 ![image](https://user-images.githubusercontent.com/48292190/97412573-10c95580-1945-11eb-8422-5d38f840111b.png)
 
 [링크] - https://hong-junhyeok.github.io/jokers/.
+
+
+
+...농담들이 재미없네요 
